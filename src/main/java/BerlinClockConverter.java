@@ -7,14 +7,14 @@ public class BerlinClockConverter implements TimeConvert {
 			throw new IllegalArgumentException();
 		}
 		return getSecondsLamp(time)+
-				"\n"+
-				getFiveHourLights(time)+
-				"\n"+
-				getOneHourLights(time)+
-				"\n"+
-				getFiveMinuteLights(time)+
-				"\n"+
-				getSingleMinuteLights(time);
+		"\n"+
+		getFiveHourLights(time)+
+		"\n"+
+		getOneHourLights(time)+
+		"\n"+
+		getFiveMinuteLights(time)+
+		"\n"+
+		getSingleMinuteLights(time);
 	}
 
 	public boolean isValidtimeString(String time) {
